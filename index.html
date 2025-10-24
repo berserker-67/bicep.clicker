@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bizep Clicker — Final</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Bizep Clicker — Final</h1>
+      <p>Klicke auf den Arm um ihn zu trainieren. Kaufe Upgrades, speichere deinen Fortschritt.</p>
+    </header>
+
+    <div class="layout">
+      <section class="game-area">
+        <div class="stage" id="stage">
+          <!-- gym background inserted as inline img for simplicity -->
+          <img src="./assets/gym_bg.svg" id="bg" alt="Gym Background" aria-hidden="true" />
+          <div id="armwrap" class="armwrap" role="button" title="Klick mich">
+            <!-- Insert the arm svg inline via object tag for crisp rendering -->
+            <object type="image/svg+xml" data="./assets/arm.svg" id="armobj" aria-label="Arm"></object>
+          </div>
+        </div>
+
+        <div class="hud">
+          <div class="hud-row">
+            <div>Stärke: <strong id="strength">0</strong></div>
+            <div>Pro Klick: <strong id="perClick">1</strong></div>
+            <div>Auto /s: <strong id="auto">0</strong></div>
+          </div>
+          <div class="hud-row">
+            <button id="reset">Zurücksetzen</button>
+            <button id="export">Save exportieren</button>
+            <input id="importFile" type="file" accept=".json" style="display:none"/>
+            <button id="importBtn">Save importieren</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h2>Upgrades</h2>
+        <div id="upgradesList" class="upgrades-list"></div>
+      </aside>
+    </div>
+
+    <footer>
+      <small>Fertig zum Hochladen auf GitHub Pages. Upgrades in assets/upgrades.json, Save-Export/Import vorhanden.</small>
+    </footer>
+  </main>
+
+  <script src="./script_final.js"></script>
+</body>
+</html>
