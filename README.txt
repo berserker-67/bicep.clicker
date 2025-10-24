@@ -1,0 +1,1 @@
+Bizep Clicker Upgrade Edition\n\n- Upload the files to GitHub Pages (root)\n- Upgrades definitions are in assets/upgrades.json\n- Save state (purchases and stats) are stored in browser localStorage; you can export/import as JSON using the buttons in the HUD.
