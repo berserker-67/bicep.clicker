@@ -1,0 +1,1 @@
+Bizep Clicker — Improved\n\nFiles:\n- index.html\n- style.css\n- script_improved.js\n- assets/* (PNG and SVG assets)\n\nUpload to GitHub Pages (root). Save uses localStorage and can be exported/imported.

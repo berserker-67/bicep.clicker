@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bizep Clicker — Improved</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Bizep Clicker — Improved</h1>
+      <p>Verbessertes Design, flüssige Animationen, viele Upgrades. Kompatibel mit GitHub Pages.</p>
+    </header>
+
+    <div class="layout">
+      <section class="game-area">
+        <div class="stage" id="stage">
+          <picture>
+            <source srcset="./assets/gym_bg.svg" type="image/svg+xml">
+            <img id="bg" src="./assets/gym_bg.png" alt="Gym background" />
+          </picture>
+          <div id="armwrap" class="armwrap" role="button" title="Klicke um zu trainieren">
+            <object id="armobj" type="image/svg+xml" data="./assets/arm.svg"></object>
+            <img id="armpng" src="./assets/arm.png" alt="Arm PNG fallback" style="display:none"/>
+            <img id="dumbpng" src="./assets/dumbbell.png" alt="Dumbbell PNG" class="dumbpng" />
+          </div>
+        </div>
+
+        <div class="hud">
+          <div class="hud-top">
+            <div class="stat">💪 Stärke: <span id="strength">0</span></div>
+            <div class="stat">⚡ Pro Klick: <span id="perClick">1</span></div>
+            <div class="stat">🤖 Auto /s: <span id="auto">0</span></div>
+          </div>
+          <div class="hud-actions">
+            <button id="export">Save exportieren</button>
+            <input id="importFile" type="file" accept=".json" style="display:none"/>
+            <button id="importBtn">Save importieren</button>
+            <button id="reset">Zurücksetzen</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h2>Upgrades & Shop</h2>
+        <div id="upgradesList" class="upgrades-list"></div>
+        <hr/>
+        <div class="info">Kaufe Upgrades, um deinen Bizeps zu verbessern. Alle Käufe werden gespeichert.</div>
+      </aside>
+    </div>
+
+    <footer>
+      <small>Drop die Dateien in ein GitHub Repo und aktiviere Pages (root). PNG- und SVG-Dateien sind vorhanden.</small>
+    </footer>
+  </main>
+
+  <script src="./script_improved.js"></script>
+</body>
+</html>

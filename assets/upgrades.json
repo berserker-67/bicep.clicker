@@ -1,0 +1,121 @@
+[
+  {
+    "id": "calisthenics",
+    "name": "Calisthenics",
+    "cost": 20,
+    "desc": "Bodyweight basics, +0.5 per click",
+    "perClickAdd": 0.5
+  },
+  {
+    "id": "gym",
+    "name": "Gym Membership",
+    "cost": 120,
+    "desc": "Access to machines, +2 per click",
+    "perClickAdd": 2
+  },
+  {
+    "id": "protein",
+    "name": "Protein Powder",
+    "cost": 360,
+    "desc": "Better recovery, +10% per click",
+    "perClickMult": 1.1
+  },
+  {
+    "id": "creatine",
+    "name": "Creatine",
+    "cost": 900,
+    "desc": "Short-term boost, +12 per click",
+    "perClickAdd": 12
+  },
+  {
+    "id": "peptides",
+    "name": "Peptides",
+    "cost": 2200,
+    "desc": "Advanced protocol, +3 auto/s",
+    "autoAdd": 3
+  },
+  {
+    "id": "trainer",
+    "name": "Personal Trainer",
+    "cost": 5200,
+    "desc": "Individual plan, +28 per click",
+    "perClickAdd": 28
+  },
+  {
+    "id": "stack",
+    "name": "Anabolic Stack",
+    "cost": 12000,
+    "desc": "Double perClick",
+    "perClickMult": 2.0
+  },
+  {
+    "id": "supps",
+    "name": "Supplements Pack",
+    "cost": 30000,
+    "desc": "Pro stack, +80 per click",
+    "perClickAdd": 80
+  },
+  {
+    "id": "franchise",
+    "name": "Gym Franchise",
+    "cost": 120000,
+    "desc": "Massive gains, +500 per click",
+    "perClickAdd": 500
+  },
+  {
+    "id": "onlinecourse",
+    "name": "Online Course",
+    "cost": 800,
+    "desc": "Technique +5% perClick",
+    "perClickMult": 1.05
+  },
+  {
+    "id": "massage",
+    "name": "Sports Massage",
+    "cost": 1500,
+    "desc": "Faster recovery, +1 auto/s",
+    "autoAdd": 1
+  },
+  {
+    "id": "gear",
+    "name": "Pro Gear",
+    "cost": 7000,
+    "desc": "High-quality gear, +60 per click",
+    "perClickAdd": 60
+  },
+  {
+    "id": "science",
+    "name": "Research Grant",
+    "cost": 45000,
+    "desc": "Cutting-edge science, +3x multiplier",
+    "perClickMult": 3.0
+  },
+  {
+    "id": "vip",
+    "name": "VIP Membership",
+    "cost": 250000,
+    "desc": "Elite access, +2000 per click",
+    "perClickAdd": 2000
+  },
+  {
+    "id": "micro",
+    "name": "Microdosing",
+    "cost": 6000,
+    "desc": "Small performance boost, +6 per click",
+    "perClickAdd": 6
+  },
+  {
+    "id": "sleep",
+    "name": "Optimized Sleep",
+    "cost": 4200,
+    "desc": "Better recovery, +2 auto/s",
+    "autoAdd": 2
+  },
+  {
+    "id": "supplement_lab",
+    "name": "Supplement Lab",
+    "cost": 75000,
+    "desc": "Develop custom supplements, +400 per click",
+    "perClickAdd": 400
+  }
+]
