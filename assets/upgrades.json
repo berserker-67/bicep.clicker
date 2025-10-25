@@ -1,0 +1,80 @@
+[
+  {
+    "id": "calisthenics",
+    "name": "Calisthenics",
+    "cost": 25,
+    "desc": "Bodyweight basics. +0.75 per click",
+    "perClickAdd": 0.75,
+    "scene": "bg_1_calisthenics.png",
+    "dumb": "dumb_1_small.png"
+  },
+  {
+    "id": "gym",
+    "name": "Gym Membership",
+    "cost": 150,
+    "desc": "Access to basic gym. +3 per click",
+    "perClickAdd": 3,
+    "scene": "bg_2_gym.png",
+    "dumb": "dumb_2_basic.png"
+  },
+  {
+    "id": "protein",
+    "name": "Protein Powder",
+    "cost": 400,
+    "desc": "Protein in the corner. +10% per click",
+    "perClickMult": 1.1,
+    "scene": "bg_3_protein.png",
+    "dumb": "dumb_3_protein.png",
+    "decor": "protein_bucket.png"
+  },
+  {
+    "id": "creatine",
+    "name": "Creatine",
+    "cost": 1200,
+    "desc": "Creatine jar added. +12 per click",
+    "perClickAdd": 12,
+    "scene": "bg_4_creatine.png",
+    "dumb": "dumb_4_creatine.png",
+    "decor": "creatine_can.png"
+  },
+  {
+    "id": "peptides",
+    "name": "Peptides",
+    "cost": 3500,
+    "desc": "Advanced treatment. +4 auto/s",
+    "autoAdd": 4,
+    "scene": "bg_5_peptides.png",
+    "dumb": "dumb_5_peptides.png",
+    "decor": "peptides_box.png"
+  },
+  {
+    "id": "trainer",
+    "name": "Personal Trainer",
+    "cost": 9000,
+    "desc": "Trainer guides you. +30 per click",
+    "perClickAdd": 30,
+    "scene": "bg_6_trainer.png",
+    "dumb": "dumb_6_trainer.png",
+    "decor": "trainer_silhouette.png"
+  },
+  {
+    "id": "stack",
+    "name": "Anabolic Stack",
+    "cost": 22000,
+    "desc": "Pro stack, double strength",
+    "perClickMult": 2.0,
+    "scene": "bg_7_stack.png",
+    "dumb": "dumb_7_gold.png",
+    "decor": "gold_trophy.png"
+  },
+  {
+    "id": "empire",
+    "name": "Gym Empire",
+    "cost": 100000,
+    "desc": "Own gym chain. +500 per click",
+    "perClickAdd": 500,
+    "scene": "bg_8_empire.png",
+    "dumb": "dumb_8_empire.png",
+    "decor": "empire_logo.png"
+  }
+]
