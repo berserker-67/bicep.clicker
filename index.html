@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dumbbell Clicker — Strength Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-area">
+      <div class="top-bar">
+        <div class="logo">
+          <div class="logo-icon">DB</div>
+          <div>
+            <h1>Dumbbell Clicker</h1>
+            <div class="subtitle">Klicke die Hantel um Kraft zu sammeln</div>
+          </div>
+        </div>
+        <div class="score">Kraft: <strong id="strength">0</strong></div>
+      </div>
+
+      <div class="play-area">
+        <div class="stage" id="stage">
+          <div class="background-layer" id="bg-layer"></div>
+          <button class="hantel-btn" id="dumbbellBtn" aria-label="Hantel klicken">
+            <img src="assets/dumbbell.png" id="dumbbellImg" alt="Hantel">
+          </button>
+          <div id="floating" class="spark float-text"></div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">Kraft / Klick: <b id="perClick">1</b></div>
+          <div class="stat">Automatische Kraft/sec: <b id="perSec">0</b></div>
+          <button class="btn" id="prestigeBtn">Prestige</button>
+        </div>
+      </div>
+    </div>
+
+    <aside class="shop">
+      <h2 class="neon">Shop</h2>
+      <div class="shop-desc">Kaufe Upgrades um deine Hantel & Umgebung zu verbessern.</div>
+      <div class="upgrades" id="upgradesList"></div>
+    </aside>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #0b0f1a, #0f1724);
+  color: #e6eef8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 20px;
+  background: rgba(255,255,255,0.02);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(2,6,23,0.6);
+}
+.hantel-btn img {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.hantel-btn:active img { transform: scale(0.95); }
+.btn {
+  background: linear-gradient(90deg,#ff4d6d,#ffd166);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #08111a;
+  font-weight: 700;
+}
+.neon {
+  background: linear-gradient(90deg,#ff4d6d,#ffd166);
+  -webkit-background-clip: text;
+  color: transparent;
+}
